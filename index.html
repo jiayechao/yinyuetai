@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="view-port" content="width=device-width,user-scalable=no">
 	<title>音悦台</title>
+	<script>
+		resize();
+		function resize(){
+			var html = document.getElementsByTagName('html')[0];
+			var width = html.getBoundingClientRect().width;
+			html.style.fontSize = width/16+'px';
+		}
+		window.addEventListener('resize',resize);
+		window.addEventListener('orientationchange',resize);
+	</script>
+	<link rel="stylesheet" href="./style/css.css">
 </head>
 <body>
-	
+	<section id="warp">
+		<header></header>
+	</section>
 </body>
 </html>

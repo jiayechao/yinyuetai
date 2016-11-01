@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+//定义变量
+$fontSize: 62.5rem;
+
+//初始化
+body,h1,h2,h3,dd,dl ul{margin: 0;
+	-webkit-text-size-adjust:100%;
+	font-family: Helvetica;
+}
+ul,ol{
+	margin:0;
+	list-style: none;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+}
+
+//正式代码
+html,body{
+	height: 100%;
+}
+body{
+	position: relative;
+	overflow:hidden;
+}
+#wrap{
+	height: 100%;
+	overflow:hidden;
+}
+
