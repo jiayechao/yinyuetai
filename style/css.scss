@@ -1,15 +1,16 @@
 @charset "utf-8";
 
 //定义变量
-$fontSize: 62.5rem;
+$fontSize: 40 !default;
 
 //初始化
-body,h1,h2,h3,dd,dl ul{margin: 0;
+body,h1,h2,h3,dd,dl,form{margin: 0;
 	-webkit-text-size-adjust:100%;
 	font-family: Helvetica;
 }
 ul,ol{
-	margin:0;
+	margin: 0;
+	padding:0;
 	list-style: none;
 }
 img{
@@ -31,10 +32,120 @@ html,body{
 }
 body{
 	position: relative;
+	//为了模拟固定定位
 	overflow:hidden;
 }
 #wrap{
 	height: 100%;
-	overflow:hidden;
+	overflow:auto;
+}
+#header{
+	position: absolute;
+	background: #171717;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.header-top{
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 120rem / $fontSize;
+	height: 42rem / $fontSize;
+	margin: 20rem / $fontSize 10rem / $fontSize;
+	background:url('../imgs/logo.png') no-repeat;
+	background-size: 120rem / $fontSize  42rem / $fontSize;
+}
+.channel{
+	float: left;
+	width: 48rem / $fontSize;
+	height: 66rem / $fontSize;
+	margin:9rem / $fontSize 14rem / $fontSize 5rem / $fontSize;
+	background:url('../imgs/channel_ice.png') no-repeat;
+	background-size: 48rem / $fontSize;
+}
+.btn-group{
+	float: right;
+}
+.btn{
+	color: #fff;
+	border:0;
+	font-size: 24rem / $fontSize;
+	line-height: 48rem / $fontSize;
+	background: #669900;
+	border-radius: 6px;
+	overflow: visible;
+	width: 76rem / $fontSize;
+	height: 48rem / $fontSize;
+	text-align: center;
+}
+.search{
+	float:left;
+	margin-top: 14rem / $fontSize;
+	margin-right: 18rem / $fontSize;
+}
+.login,.reg{
+	float: right;
+	margin-top:12rem / $fontSize;
+	margin-right: 10rem / $fontSize;
+}
+.search-box{
+	padding:10rem / $fontSize;
+}
+.search-box-hide{
+	display: none;
+}
+.search-box-show{
+	display: block;
+}
+.search-box input{
+	background: #999;
+	width: 490rem / $fontSize;
+	height: 60rem / $fontSize;
+	line-height: 60rem / $fontSize;
+	text-indent: 10rem / $fontSize;
+	border:0;
+	border-radius: 6px;
+	color: #444;
+	font-size: 24rem / $fontSize;
+}
+.search-box button{
+	float: right;
+	width: 120rem / $fontSize;
+	height: 60rem / $fontSize;
+	background: #414040;
+	font-size: 30rem / $fontSize;
+	text-align: center;
+	line-height: 60rem / $fontSize;
+	overflow:visible;
+	border:0;
+	color: #fff;
+	border-radius: 0 8px 8px 0 ;
 }
 
+.lists{
+	padding:20rem / $fontSize 10rem / $fontSize;
+	overflow:hidden;
+	border-top: 3px solid #666;
+	display: none;
+}
+.lists-hide{
+	display: none;
+}
+.lists-show{
+	display: block;
+}
+.lists li{
+	float: left;
+	width: 155rem / $fontSize;
+	font-size:  30rem / $fontSize;
+	
+	
+}
+.lists a{
+	text-align: center;
+	padding: 25rem / $fontSize 0;
+	color: #fff;
+	display: block;
+}

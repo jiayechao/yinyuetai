@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="view-port" content="width=device-width,user-scalable=no">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
 	<title>音悦台</title>
 	<script>
 		resize();
@@ -17,8 +17,43 @@
 	<link rel="stylesheet" href="./style/css.css">
 </head>
 <body>
-	<section id="warp">
-		<header></header>
+	<section id="wrap">
+		<header id="header">
+			<div class="header-top">
+				<a class="logo"></a>
+				<div class="channel channel-hide"></div>
+				<div class="btn-group">
+					<button class="btn search">搜索</button>
+					<a class="btn reg">注册</a>
+					<a class="btn login">登录</a>
+				</div>
+			</div>
+			<div class="search-box">
+				<form action="">
+					<input type="text" placeholder="请输入搜索内容">
+					<button type="submit">搜索</button>
+				</form>
+			</div>
+			<div class="lists">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">MV</a></li>
+					<li><a href="">悦单</a></li>
+					<li><a href="">V榜</a></li>
+					<li><a href="">音悦</a></li>
+					<li><a href="">商城</a></li>
+					<li><a href="">节目</a></li>
+					<li><a href="">饭团</a></li>
+					<li><a href="">资讯</a></li>
+					<li><a href="">我的家</a></li>
+					<li><a href="">App下载</a></li>
+					<li><a href="">热门应用</a></li>
+				</ul>
+			</div>
+		</header>
 	</section>
+
+
+	<script src='./script/index.js'></script>
 </body>
 </html>
