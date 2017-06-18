@@ -1,0 +1,22 @@
+{
+  "name": "yinyuetai",
+  "version": "1.0.0",
+  "description": "a mobile program",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotate720deg/yinyuetai.git"
+  },
+  "author": "yeye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotate720deg/yinyuetai/issues"
+  },
+  "homepage": "https://github.com/rotate720deg/yinyuetai#readme",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
+}

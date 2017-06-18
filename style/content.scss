@@ -1,0 +1,160 @@
+<<<<<<< HEAD
+.content{
+	border-left: toRem(10px) solid #eee;
+	border-right: toRem(10px) solid #eee;
+	border-bottom: toRem(10px) solid #eee;
+	nav{
+		padding-left: 4px;
+	}
+	@at-root {
+		.content-top{
+			line-height:toRem(64px);
+			overflow: hidden;
+			h4{
+				float: left;
+				font-size: toRem(30px);
+				font-weight: 600;
+				padding: 0 toRem(12px);
+			}
+
+			a{
+				float: right;
+				font-size: toRem(24px);
+				padding: 0 toRem(12px);
+
+			}
+		}
+		
+		.details{
+			overflow: hidden;
+			li{
+				background: #eee;
+				margin:toRem(6px);
+				padding: toRem(4px);
+				float: left;
+				a{
+					display: block;
+					width: toRem(290px);
+					height: toRem(168px);
+				}
+			}
+			.title{
+				line-height: toRem(47px);
+				font-size: toRem(20px);
+				font-weight: 600;
+				margin-bottom: 3px;
+			}
+			p{
+				padding-bottom: toRem(10px);
+				line-height: 0;
+			}
+			.play{
+				display: inline-block;
+				line-height: toRem(25px);
+				text-indent: toRem(10px);
+				background: url(../imgs/play.jpg) no-repeat;
+				padding-left: toRem(25px);
+				background-size: toRem(25px);
+				font-size: toRem(18px);
+			}
+			.discuss{
+				@extend .play;
+				margin-left: 6px;
+				background-position: 0 toRem(-26px);
+			}
+		}
+
+	}
+	nav{
+		a{
+			padding: toRem(6px) toRem(9px);
+			font-size: toRem(26px);
+			line-height: toRem(44px);
+			font-weight: 600;
+			color: #666;
+		}
+		.active{
+			border-bottom: 2px solid nth($color,2);
+		}
+	}
+}
+=======
+.content{
+	border-left: toRem(10px) solid #eee;
+	border-right: toRem(10px) solid #eee;
+	border-bottom: toRem(10px) solid #eee;
+	@at-root {
+		.content-top{
+			line-height:toRem(64px);
+			overflow: hidden;
+			h4{
+				float: left;
+				font-size: toRem(30px);
+				font-weight: 600;
+				padding: 0 toRem(12px);
+			}
+
+			a{
+				float: right;
+				font-size: toRem(24px);
+				padding: 0 toRem(12px);
+
+			}
+		}
+		nav{
+			padding-left: 4px;
+		}
+		.details{
+			overflow: hidden;
+			li{
+				background: #eee;
+				margin:toRem(6px);
+				padding: toRem(4px);
+				float: left;
+				a{
+					display: block;
+					width: toRem(290px);
+					height: toRem(168px);
+				}
+			}
+			.title{
+				line-height: toRem(47px);
+				font-size: toRem(20px);
+				font-weight: 600;
+				margin-bottom: 3px;
+			}
+			p{
+				padding-bottom: toRem(10px);
+				line-height: 0;
+			}
+			.play{
+				display: inline-block;
+				line-height: toRem(25px);
+				text-indent: toRem(10px);
+				background: url(../imgs/play.jpg) no-repeat;
+				padding-left: toRem(25px);
+				background-size: toRem(25px);
+				font-size: toRem(18px);
+			}
+			.discuss{
+				@extend .play;
+				margin-left: 6px;
+				background-position: 0 toRem(-26px);
+			}
+		}
+
+	}
+	nav{
+		a{
+			padding: toRem(6px) toRem(9px);
+			font-size: toRem(26px);
+			line-height: toRem(44px);
+			font-weight: 600;
+			color: #666;
+		}
+		.active{
+			border-bottom: 2px solid nth($color,2);
+		}
+	}
+}
+>>>>>>> refs/remotes/origin/master

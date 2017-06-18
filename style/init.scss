@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+@charset "utf-8";
+
+//定义变量
+$fontSize: 40px !default;
+$color: #b0a8b6 #669900 #444 #171717;
+
+//px to rem
+@function toRem($px){
+	@return $px / $fontSize * 1rem;
+}
+
+//初始化
+body,h1,h2,h3,h4,p,dd,dl,form{margin: 0;
+	-webkit-text-size-adjust:100%;
+	font-family: Helvetica;
+}
+ul,ol{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  outline:0;
+=======
+@charset "utf-8";
+
+//定义变量
+$fontSize: 40px !default;
+$color: #b0a8b6 #669900 #444 #171717;
+
+//px to rem
+@function toRem($px){
+	@return $px / $fontSize * 1rem;
+}
+
+//初始化
+body,h1,h2,h3,h4,p,dd,dl,form{margin: 0;
+	-webkit-text-size-adjust:100%;
+	font-family: Helvetica;
+}
+ul,ol{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  outline:0;
+>>>>>>> refs/remotes/origin/master
+}
