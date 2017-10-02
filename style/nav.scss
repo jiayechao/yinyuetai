@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #nav-scroll{
 	padding-top: toRem(170px);
@@ -51,6 +52,62 @@
 	.active{
 		background: nth($color,2);
 	}
+=======
+
+#nav-scroll{
+	padding-top: toRem(170px);
+	overflow: hidden;
+	border-bottom: 1px solid #333;
+	font-size: 0;
+	ul{
+		padding: toRem(10px);
+		white-space: nowrap;
+		display: inline-block; 
+	}
+	li{
+		display: inline-block;
+		padding: toRem(20px) toRem(22px);
+	}
+	.active{
+		background: nth($color,2);
+	}
+	.active a{
+		color: #fff;
+	}
+	a{
+		color: nth($color,3);
+		font-size: toRem(38px);
+	}
+}
+#banner{
+	overflow: hidden;
+	font-size: 0;
+	position: relative;
+	ul{
+		width: 500%;
+		height: toRem(370px);
+	}
+	li{
+		width: 20%;
+		float: left;
+	}
+}
+.banner-bar{
+	position: absolute;
+	bottom: toRem(12px);
+	right: toRem(32px);
+	a{
+		display: inline-block;
+		width: toRem(12px);
+		height: toRem(12px);
+		border-radius: 50%;
+		background: nth($color,1);
+		margin-right: toRem(20px);
+	}
+	.active{
+		background: nth($color,2);
+	}
+>>>>>>> refs/remotes/origin/master
 =======
 
 #nav-scroll{
